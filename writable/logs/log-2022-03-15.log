@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-15 22:19:58 --> Class "Config\App\Models\CustomRules\MyCustomRules" not found
+#0 J:\bancoRest\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 J:\bancoRest\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#2 J:\bancoRest\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#3 J:\bancoRest\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#4 J:\bancoRest\app\Controllers\API\Clientes.php(22): CodeIgniter\Model->insert(Object(stdClass))
+#5 J:\bancoRest\system\CodeIgniter.php(832): App\Controllers\API\Clientes->create()
+#6 J:\bancoRest\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+#7 J:\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\bancoRest\system\Commands\Server\rewrite.php(43): require_once('J:\\bancoRest\\pu...')
+#10 {main}
